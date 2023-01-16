@@ -199,9 +199,9 @@ console.log(firstGame, secondGame)
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 const firstGameName = document.createElement("p");
 firstGameName.innerHTML = `<p>${firstGame.name}</p>`;
-descriptionContainer.appendChild(firstGameName);
+firstGameContainer.appendChild(firstGameName);
 
 // do the same for the runner up item
 const secondGameName = document.createElement("p");
 secondGameName.innerHTML = `<p>${secondGame.name}</p>`;
-descriptionContainer.appendChild(secondGameName);
+secondGameContainer.appendChild(secondGameName);
